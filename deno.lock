@@ -1,0 +1,16 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@dep/regex@^1.0.1": "1.0.1"
+  },
+  "jsr": {
+    "@dep/regex@1.0.1": {
+      "integrity": "3acbdfaa85c9e91fc4db4c3c29839fa71cd13ae222f54a549d81a4e4e483c2f2"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@dep/regex@^1.0.1"
+    ]
+  }
+}

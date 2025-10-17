@@ -1,0 +1,34 @@
+{
+  "name": "@dep/has",
+  "version": "1.0.0",
+  "description": "Lightweight validation toolkit for checking formats like email, UUID, IP, JSON, and more.",
+  "exports": "./src/main.ts",
+  "author": {
+    "name": "Estarlin R.",
+    "email": "dev@estarlincito.com",
+    "url": "https://estarlincito.com"
+  },
+  "homepage": "https://github.com/dep-ts/has#readme",
+  "repository": "https://github.com/dep-ts/has",
+  "bugs": "https://github.com/dep-ts/has/issues",
+  "keywords": [
+    "validation",
+    "validator",
+    "string",
+    "check",
+    "utils",
+    "typescript",
+    "javascript",
+    "email",
+    "uuid",
+    "ip",
+    "url",
+    "base64",
+    "domain"
+  ],
+  "license": "MIT",
+  "publish": {
+    "include": ["src", "LICENSE", "README.md"],
+    "exclude": ["**/tests/**"]
+  }
+}
