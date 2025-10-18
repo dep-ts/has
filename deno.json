@@ -1,13 +1,12 @@
 {
   "name": "@dep/has",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "exports": "./src/main.ts",
   "compilerOptions": {
     "strict": true
   },
   "imports": {
-    "@/": "./src/",
-    "@dep/regex": "jsr:@dep/regex@^1.0.1"
+    "@/": "./src/"
   },
   "tasks": {
     "start": "deno run --allow-net src/main.ts",
