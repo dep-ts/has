@@ -1,6 +1,6 @@
 {
   "name": "@dep/has",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tiny character presence detector for strings",
   "exports": "./src/main.ts",
   "author": {

@@ -29,5 +29,3 @@ export const useCheck =
  * the configured check, `false` otherwise.
  */
 export type CheckFn = (str: string) => boolean;
-
-export const alphaNum: CheckFn = useCheck((c) => c.alphaNum());
